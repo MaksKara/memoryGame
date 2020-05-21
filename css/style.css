@@ -3,3 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.wrapper{
+	height: 100vh;
+	display: flex;
+	background-color: #060ab2;
+}
+.memory-game{
+	width: 650px;
+	height: 650px;
+	margin: auto;
+	display: flex;
+	/*замена
+	flex-direction: row;
+	flex-wrap: wrap;*/
+	flex-flow: row wrap;
+}
+.memory-card{
+	width: 25%;
+	height: 33.333%;
+	transform: scale(1);
+}
